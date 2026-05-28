@@ -1,6 +1,6 @@
 # 隐私政策 / Privacy Policy
 
-**最后更新 / Last updated: 2026-05-27**
+**最后更新 / Last updated: 2026-05-28**
 
 ---
 
@@ -8,19 +8,19 @@
 
 ### 概述
 
-「秒秒进账」（以下称"本 App"）由独立开发者维护，致力于在你的工作时段实时展示当日已赚收入。本 App 在设计上**不收集、不上传、不分析**任何用户数据。
+「秒秒进账」（以下称"本 App"，包含 iPhone 版与 Mac 版）由独立开发者维护，致力于在你的工作时段实时展示当日已赚收入。本 App 在设计上**不收集、不上传、不分析**任何用户数据。
 
 ### 我们收集哪些信息？
 
 **我们不收集任何信息。**
 
-本 App 所有功能都在你的 iPhone 本地完成。包括但不限于：
+本 App 所有功能都在你的设备本地（iPhone 或 Mac）完成。包括但不限于：
 
 - 你的月薪 / 时薪、工作时段、加班倍率等设置项
 - 每天的开工 / 收工时间、当日金额
 - 历史记录、月度统计、节假日 override
 
-以上数据全部仅保存在你 iPhone 系统的 `UserDefaults` 中，永不离开你的设备。
+以上数据全部仅保存在你设备系统的 `UserDefaults` 中，永不离开你的设备。Mac 版通过 App Group（`group.com.asir001.RealTimeSalary`）在主程序与菜单栏组件之间共享同一份本地数据，仍不离开你的 Mac。
 
 ### 我们使用哪些第三方服务？
 
@@ -39,9 +39,9 @@
 
 ### iCloud 同步？
 
-**v1.2 版本不包含 iCloud 同步功能。** 你的数据由 iOS 系统的自动 iCloud Backup 机制（如你开启了 iCloud 备份）兜底，但这是 iOS 系统级行为，本 App 不参与也不调用 CloudKit 接口。
+**v1.0 版本不包含 iCloud 同步功能。** 你的数据由系统的自动 iCloud Backup 机制（如你开启了 iCloud 备份）兜底，但这是 iOS / macOS 系统级行为，本 App 不参与也不调用 CloudKit 接口。
 
-未来版本（v1.3+）可能引入 iCloud 同步功能，届时会更新本政策。
+未来版本可能引入 iCloud 同步功能，届时会更新本政策。
 
 ### 跟踪？
 
@@ -58,8 +58,9 @@
 
 ### 你的权利
 
-- **查看数据**：所有数据都在你的 iPhone 上，App 内首页 + 历史页即可看到
-- **删除数据**：iPhone 设置 → 通用 → iPhone 储存空间 → 找到 TickTill → 删除 App，所有数据随之删除
+- **查看数据**：所有数据都在你的设备上，App 内首页 + 历史页即可看到
+- **删除数据（iPhone）**：设置 → 通用 → iPhone 储存空间 → 找到「秒秒进账」→ 删除 App，所有数据随之删除
+- **删除数据（Mac）**：Finder → 应用程序 → 找到「秒秒进账」→ 移到废纸篓，再执行：`defaults delete group.com.asir001.RealTimeSalary` 以彻底清除 App Group 中的本地设置
 - **联系开发者**：1162805600@qq.com
 
 ### 政策变更
@@ -72,19 +73,19 @@
 
 ### Overview
 
-TickTill (the "App") is maintained by an independent developer and shows your real-time daily earnings during your working hours. The App is designed to **not collect, upload, or analyze** any user data.
+TickTill (the "App", including the iPhone and Mac editions) is maintained by an independent developer and shows your real-time daily earnings during your working hours. The App is designed to **not collect, upload, or analyze** any user data.
 
 ### What information do we collect?
 
 **We collect nothing.**
 
-All features run locally on your iPhone, including:
+All features run locally on your device (iPhone or Mac), including:
 
 - Your monthly / hourly rate, working hours, overtime multipliers, and other settings
 - Daily clock-in / clock-out times and earned amounts
 - History, monthly summaries, and holiday overrides
 
-All such data is stored only in your iPhone's `UserDefaults` and never leaves your device.
+All such data is stored only in your device's `UserDefaults` and never leaves your device. The Mac edition uses an App Group (`group.com.asir001.RealTimeSalary`) to share the same local data between the main app and the menu bar component — it still never leaves your Mac.
 
 ### Third-party services?
 
@@ -103,9 +104,9 @@ The App **makes no network requests**. All functionality works in Airplane Mode.
 
 ### iCloud sync?
 
-**v1.2 does not include iCloud sync.** Your data is incidentally protected by iOS automatic iCloud Backup (if you have it enabled), but that is a system-level behavior — the App itself does not call CloudKit or any sync API.
+**v1.0 does not include iCloud sync.** Your data is incidentally protected by automatic iCloud Backup (if you have it enabled), but that is an iOS / macOS system-level behavior — the App itself does not call CloudKit or any sync API.
 
-Future versions (v1.3+) may introduce iCloud sync. This policy will be updated accordingly.
+Future versions may introduce iCloud sync. This policy will be updated accordingly.
 
 ### Tracking?
 
@@ -122,8 +123,9 @@ The App is not designed for children under 13. As we collect no data, there is n
 
 ### Your rights
 
-- **View your data**: It's all on your iPhone — visible inside the App's Home and History views
-- **Delete your data**: Settings → General → iPhone Storage → TickTill → Delete App. All data is removed
+- **View your data**: It's all on your device — visible inside the App's Home and History views
+- **Delete your data (iPhone)**: Settings → General → iPhone Storage → TickTill → Delete App. All data is removed
+- **Delete your data (Mac)**: Finder → Applications → TickTill → Move to Trash, then run `defaults delete group.com.asir001.RealTimeSalary` to fully clear App Group preferences
 - **Contact the developer**: 1162805600@qq.com
 
 ### Changes to this policy
